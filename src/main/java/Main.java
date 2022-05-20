@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("마지막 날짜를 출력할 년도, 월을 입력하세요.");
+        System.out.println("마지막 날짜를 출력할 년, 월을 입력하세요.");
         int year = sc.nextInt();
         int month = sc.nextInt();
         int day;
